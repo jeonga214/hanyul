@@ -8,42 +8,14 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-
-    <!--slick css-->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <link rel="icon" type="image/png" href="./img/faviconV2_han.png"/>
-
-    <!--slick js-->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <!--slick js 호출-->
-    <script>
-    $(document).ready(function(){
-        $('.single-item').slick({
-            dots: true,
-            autoplay: false,
-            autoplaySpeed: 2000,
-            fade: true,
-            speed: 500,
-            arrows:false
-        });
-
-        $('.sub03-items').slick({
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            slidesToShow: 10,
-            slidesToScroll: 1
-        });
-
-      });
-    </script>
-
 
 </head>
 <body>
@@ -193,5 +165,35 @@
             <p class="copyright">미디어콘텐츠과 2021122022 박정아 © AMOREPACIFIC CORPORATION. All rights reserved.</p>
         </footer><!--너비: 1300px-->
     </div>
+
+    <!-- jQuery and jQuery Migrate -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+    $(document).ready(function(){
+        $('.single-item').slick({
+            dots: true,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            fade: true,
+            speed: 500,
+            arrows:false
+        });
+
+        $('.sub03-items').slick({
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 10,
+            slidesToScroll: 1
+        });
+
+      });
+    </script>
 </body>
 </html>
