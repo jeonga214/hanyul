@@ -1,173 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HANYUL</title>
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-
-    <!--slick css-->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="icon" type="image/png" href="./img/faviconV2_han.png"/>
-
-    <!--slick js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <!--slick js 호출-->
-    <script>
-    $(document).ready(function(){
-        $('.single-item').slick({
-            dots: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            fade: true,
-            speed: 500,
-            arrows:false
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HANYUL</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+        <!-- slick css -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="icon" type="image/png" href="./img/faviconV2_han.png"/>
+    
+        <!-- jQuery 및 jQuery Migrate를 HTTPS로 로드 -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+        <!-- slick js 호출 -->
+        <script>
+        $(document).ready(function(){
+            $('.single-item').slick({
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                fade: true,
+                speed: 500,
+                arrows: false
+            });
+    
+            $('.multiple-items').slick({
+                dots: true,
+                infinite: true,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                slidesToShow: 4,
+                slidesToScroll: 4
+            });
+    
+            $('.hello-items').slick({
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 5,
+                slidesToScroll: 1
+            });
         });
-        
-
-        $('.multiple-items').slick({
-            dots: true,
-            infinite: true,
-            autoplay: false,
-            autoplaySpeed: 2000,
-            slidesToShow: 4,
-            slidesToScroll: 4
-        });
-
-        $('.hello-items').slick({
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            slidesToShow: 5,
-            slidesToScroll: 1
-        });
-      });
-    </script>
-
-</head>
-<body>
-   
-    <!--헤더영역-->
-    <div id="header_wrap">
-        <header id="header">
-            <div class="logo"><a href="index.html"><img src="img/logo.jpg" alt="한율"></a></div>
-            <ul class="icon">
-                <li><a href="#"><img src="img/icon1.jpg" alt="store"></a></li>
-            </ul>
-            <ul class="nav">
-                <li><a href="sub_01.html">베스트</a></li>
-                <li><a href="sub_02.html">브랜드</a></li>
-                <li><a href="sub_03.html">라인</a></li>
-                <li><a href="#">스킨케어</a></li>
-                <li><a href="#">마스크&팩</a></li>
-                <li><a href="#">클렌징</a></li>
-                <li><a href="#">바디케어</a></li>
-                <li><a href="#">전체제품</a></li>
-            </ul>
-        </header><!--너비: 1400px-->
-    </div>
-
-    <!--콘텐츠영역-->
-    <div id="container">
-        <div id="visual_wrap">
-            <div class="single-item">
-                <div><img src="img/visual_01.jpg"></div>
-                <div><img src="img/visual_02.jpg"></div>
-                <div><img src="img/visual_03.jpg"></div>
-                <div><img src="img/visual_04.jpg"></div>
-                <div><img src="img/visual_05.jpg"></div>
-              </div>
+        </script>
+    </head>
+    <body>
+        <!-- 헤더 영역 -->
+        <div id="header_wrap">
+            <header id="header">
+                <div class="logo"><a href="index.html"><img src="img/logo.jpg" alt="한율"></a></div>
+                <ul class="icon">
+                    <li><a href="#"><img src="img/icon1.jpg" alt="store"></a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="sub_01.html">베스트</a></li>
+                    <li><a href="sub_02.html">브랜드</a></li>
+                    <li><a href="sub_03.html">라인</a></li>
+                    <li><a href="#">스킨케어</a></li>
+                    <li><a href="#">마스크&팩</a></li>
+                    <li><a href="#">클렌징</a></li>
+                    <li><a href="#">바디케어</a></li>
+                    <li><a href="#">전체제품</a></li>
+                </ul>
+            </header><!-- 너비: 1400px -->
         </div>
-
-        <div id="view_wrap">
-            <div id="view">
-                <p class="title">BEST ITEM</p>
-                <div class="multiple-items">
-                    <div><a href="#"><img src="img/best item1.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item2.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item3.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item4.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item5.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item6.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item7.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item8.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item9.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item10.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item11.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/best item12.jpg" alt=""></a></div>
-              </div>
-            </div>
-        </div>
-
-        <div id="view_wrap">
-            <div id="view">
-                <p class="title">NEW ITEM</p>
-                <div class="multiple-items">
-                    <div><a href="#"><img src="img/new1.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new2.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new3.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new4.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new5.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new6.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new7.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new8.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new9.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new10.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new11.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/new12.jpg" alt=""></a></div>
-              </div>
-            </div>
-        </div>
-
-        <div id="view_wrap2">
-            <div id="view">
-                <p class="title">추천 ITEM</p>
-                <div class="multiple-items">
-                    <div><a href="#"><img src="img/recom1.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/recom2.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/recom3.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/recom4.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/recom5.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/recom6.jpg" alt=""></a></div>
-              </div>
-            </div>
-        </div>
-
-        
-        <div id="story_wrap">
-            <div id="story">
-                <img src="img/hello.jpg" alt="">
-                <div class="apple">
-                    <p class="apple_01">한율 브랜드스토어 고객님을 위한 혜택</p>
-                    <p class="apple_02">알림받기 동의 고객에게 드리는 혜택! 5% 장바구니할인</p>
-                    <a href="#"><img src="img/hi.jpg" alt=""></a>
+    
+        <!-- 콘텐츠 영역 -->
+        <div id="container">
+            <div id="visual_wrap">
+                <div class="single-item">
+                    <div><img src="img/visual_01.jpg"></div>
+                    <div><img src="img/visual_02.jpg"></div>
+                    <div><img src="img/visual_03.jpg"></div>
+                    <div><img src="img/visual_04.jpg"></div>
+                    <div><img src="img/visual_05.jpg"></div>
                 </div>
             </div>
-        </div>
-
-        <div id="view_wrap3">
-            <div id="view">
-                <p class="title">BEST REVIEW</p>
-                <div class="hello-items">
-                    <div><a href="#"><img src="img/review1.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review2.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review3.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review4.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review5.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review1.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review2.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review3.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review4.jpg" alt=""></a></div>
-                    <div><a href="#"><img src="img/review5.jpg" alt=""></a></div>
-              </div>
+    
+            <div id="view_wrap">
+                <div id="view">
+                    <p class="title">BEST ITEM</p>
+                    <div class="multiple-items">
+                        <div><a href="#"><img src="img/best item1.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item2.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item3.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item4.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item5.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item6.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item7.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item8.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item9.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item10.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item11.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/best item12.jpg" alt=""></a></div>
+                    </div>
+                </div>
             </div>
-        </div>
+    
+            <div id="view_wrap">
+                <div id="view">
+                    <p class="title">NEW ITEM</p>
+                    <div class="multiple-items">
+                        <div><a href="#"><img src="img/new1.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new2.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new3.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new4.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new5.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new6.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new7.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new8.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new9.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new10.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new11.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/new12.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="view_wrap2">
+                <div id="view">
+                    <p class="title">추천 ITEM</p>
+                    <div class="multiple-items">
+                        <div><a href="#"><img src="img/recom1.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/recom2.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/recom3.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/recom4.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/recom5.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/recom6.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="story_wrap">
+                <div id="story">
+                    <img src="img/hello.jpg" alt="">
+                    <div class="apple">
+                        <p class="apple_01">한율 브랜드스토어 고객님을 위한 혜택</p>
+                        <p class="apple_02">알림받기 동의 고객에게 드리는 혜택! 5% 장바구니할인</p>
+                        <a href="#"><img src="img/hi.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="view_wrap3">
+                <div id="view">
+                    <p class="title">BEST REVIEW</p>
+                    <div class="hello-items">
+                        <div><a href="#"><img src="img/review1.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review2.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review3.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review4.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review5.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review1.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review2.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review3.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review4.jpg" alt=""></a></div>
+                        <div><a href="#"><img src="img/review5.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="product_wrap">
+                <div id="product">
+                    <div class="best">
+                        <h1 class="title">PRODUCT</h1>
+                        <ul class="product_tab">
+                            <li><a href="#">라인</a></li>
+                            <li><a href="#">유형</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of container -->
+
+    
+
+
+
 
 
         <div id="product_wrap">
