@@ -1,0 +1,301 @@
+/*외부 css*/
+/*전체영역(화면크기) PC화면 1920px -> 100%*/
+/*콘텐츠영역 : 전체영역 안에 화면 가운데 배치함. width,margin;0 auto*/
+
+/*index*/
+#header_wrap{width: 100%; height:180px; background: #e8e1d9; border-bottom: 1px solid #cacaca;}
+#header_wrap #header{width: 1400px; height: 180px; margin:0 auto; overflow: hidden;}
+
+#header .logo{ margin-top: 50px; position: absolute; left: 47%;}
+#header .logo img {width: 85px;}
+
+#header .nav{width: 900px; display: flex; justify-content: space-between; margin: 0 auto; margin-top: 135px;}
+#header .nav li{width: 100px; text-align: center;}
+#header .nav li a{font-size: 14px; font-weight: 400; color: #000;}
+#header .nav li a:hover{font-weight: bold; text-decoration: underline;}
+
+#header .icon{float: right; padding-top: 25px; margin: 0 auto;}
+#header .icon img{width: 220px; margin-right: 60px; margin-top: 20px;}
+#header .icon li{}
+#header .icon li a{}
+#header .icon li a:hover{opacity: 0.7;}
+
+
+
+
+
+#container{width: 100%; overflow: hidden;} 
+#container #visual_wrap{width: 100%; position: relative;}
+#container #visual_wrap .single-item{width: 100%;}
+#container #visual_wrap .single-item img{width: 100%;}
+
+
+
+
+
+
+#container #story_wrap{width: 100%; height: 350px; margin-top: 100px; margin-bottom: 70px; background: #e8e1d9;}
+#container #story_wrap #story{width: 100%; height: 350px; margin: 0 auto; display: flex; justify-content: center;}
+#container #story_wrap #story img{width: 380px; height: 260px; margin-top: 45px; margin-right: 40px;}
+#container #story_wrap #story .apple{}
+#container #story_wrap #story .apple .apple_01{margin-top: 93px; font-size: 32px; font-weight: bold; margin-bottom: 20px; text-align: center;}
+#container #story_wrap #story .apple .apple_02{margin-top: 5px; color: #666; font-size: 14px;}
+#container #story_wrap #story .apple img{width: 305px; height: 55px; margin-top: 13px; margin-left: -2px;}
+
+
+
+/*view1*/
+#container #view_wrap{width: 100%; height: 0px; margin-top: 60px; margin-bottom: 630px;}
+#container #view_wrap #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+
+#container #view_wrap #view .title{margin-top: 90px; font-size: 32px; font-weight: bold; margin-bottom: 60px; text-align: center;letter-spacing: 1px;}
+
+
+#container #view_wrap #view .multiple-items{}
+#container #view_wrap #view .multiple-items div{margin-left: 10px; margin-right: 10px; height: 470px; overflow: hidden;}
+#container #view_wrap #view .multiple-items div img{width: 100%; height: 100%;}
+
+
+/*view2*/
+#container #view_wrap2{width: 100%; height: 0px; margin-top: 60px; margin-bottom: 630px;}
+#container #view_wrap2 #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+
+#container #view_wrap2 #view .title{margin-top: 110px; font-size: 32px; font-weight: bold; margin-bottom: 60px; text-align: center;letter-spacing: 1px;}
+
+
+#container #view_wrap2 #view .multiple-items{}
+#container #view_wrap2 #view .multiple-items div{margin-left: 10px; margin-right: 10px; height: 490px; overflow: hidden;}
+#container #view_wrap2 #view .multiple-items div img{width: 100%; height: 100%;}
+
+
+/*view3*/
+#container #view_wrap3{width: 100%; height: 0px; margin-top: 60px; margin-bottom: 580px;}
+#container #view_wrap3 #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+
+#container #view_wrap3 #view .title{margin-top: 110px; font-size: 32px; font-weight: bold; margin-bottom: 60px; text-align: center;letter-spacing: 1px;}
+
+
+#container #view_wrap3 #view .hello-items{}
+#container #view_wrap3 #view .hello-items div{margin-left: 10px; margin-right: 10px; height: 370px; overflow: hidden;}
+#container #view_wrap3 #view .hello-items div img{width: 100%; height: 100%;}
+
+
+
+
+/*product*/
+#container #product_wrap{width: 100%; height: 800px; margin-top: 100px;}
+#container #product_wrap #product{width: 1300px; height: 670px; margin: 0 auto;}
+
+#container #product .best{}
+#container #product .best .title{font-size: 32px; font-weight: bold; margin-bottom: 50px; text-align: center;letter-spacing: 1px;}
+
+#container #product .best .item{display: flex; justify-content: space-between;}
+#container #product .best .item li{margin: 20px;}
+#container #product .best .item li .pic{margin-bottom: 10px;}
+#container #product .best .item li .pic img{width: 100%; border-radius: 30px;}
+#container #product .best .item li .price{font-size: 13px; font-weight: bold; margin-bottom: 8px; letter-spacing: -0.5px;}
+#container #product .best .item li .price strong{color: #9b715d;}
+#container #product .best .item li .name{font-size: 12px; font-weight: 550; margin-bottom: 8px; letter-spacing: -0.5px;}
+#container #product .best .item li .detail{font-size: 9px; color: #555;}
+
+
+
+/*footer*/
+
+#footer_wrap{width: 100%; height: 120px; background: #ffffff; border-top: 1px solid #cacaca;}
+#footer_wrap #footer{width: 1300px; height: 120px; margin: 0 auto; margin-bottom: 30px;}
+
+
+#footer .menu_lang{display: flex; justify-content: space-between; margin:0 auto 30px auto; width: 1000px; height: 20px; margin-top: 40px; margin-bottom: 10px;}
+#footer .menu_lang .menu{width: 1000px; display: flex; justify-content: space-between;}
+#footer .menu_lang .menu li{margin-right: 20px; margin-left: 20px; font-size: 12px;}
+#footer .menu_lang .menu li a{}
+#footer .menu_lang .menu li a:hover{text-decoration: underline; font-size: 12px; font-weight: 600;}
+#footer .menu_lang .lang img{width: 85px; height: 60px; margin-top: -20px; margin-left: 20px;} 
+
+
+#footer .customer{font-size: 12px; text-align: center; line-height: 30px;}
+#footer .copyright{font-size: 12px; text-align: center; line-height: 24px;}
+
+
+
+/*sub_01*/
+#sub_best{}
+#sub_best #best{}
+#sub_best #best .title{margin-top: 70px; font-size: 32px; font-weight: bold; margin-bottom: 10px; text-align: center;letter-spacing: 1px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_best #best .sodyd{font-size: 20px; font-family: 'Gowun Dodum', sans-serif; text-align: center; margin-bottom: 30px;}
+
+
+
+#sub_container{width: 100%;}
+#sub_container #sub_01_visual{width: 1000px; height: 500px; background-image: url(../img/sub01_visual.jpg); background-position: center top; background-size: cover; margin: 0 auto;}
+
+#sub_01_visual .visual_text{width: 900px; margin: 0 auto;}
+#sub_01_visual .visual_text h1{padding-top: 60px; font-size: 26px; margin-bottom: 5px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_01_visual .visual_text h1 .one{color: #5b8060;}
+#sub_01_visual .visual_text h1 .young{display: flex;}
+#sub_01_visual .visual_text h1 .tnqns{font-size: 12px; width: 70px; background: #5b8060; color: #fff; padding: 4px 8px; text-align: center; font-family: 'Gowun Dodum', sans-serif; margin-left: 10px; margin-top: 6px;}
+
+
+#sub_01_visual .visual_text .pure{font-size: 16px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_01_visual .visual_text .water{font-size: 14px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_01_visual .visual_text .wktpgl{width: 100px; background: #ffffff00; color: #000000; padding: 8px 8px; text-align: center; border: 1px solid #000; cursor: pointer; margin-bottom: 18px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_01_visual .visual_text .wktpgl:hover{background: #5b8060; color: #fff; text-decoration: underline;}
+#sub_01_visual .visual_text .icon{margin-left: -15px; width: 200px; display: flex; justify-content: space-between; margin-bottom: 18px;}
+#sub_01_visual .visual_text .icon li img{width: 90px;}
+#sub_01_visual .visual_text .did{font-size: 8px; font-family: 'Gowun Dodum', sans-serif;}
+
+
+
+#sub_container #view_wrap3{width: 100%; height: 0px; margin-top: 40px; margin-bottom: 180px;}
+#sub_container #view_wrap3 #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+#sub_container #view_wrap3 #view .hello-items{width: 59%; margin: 0 auto; overflow: hidden;}
+#sub_container #view_wrap3 #view .hello-items div{margin-left: 10px; margin-right: 10px; height: 140px; overflow: hidden;}
+#sub_container #view_wrap3 #view .hello-items div img{width: 100%; height: 100%;}
+
+
+
+
+
+
+/*두번째*/
+#sub_container2{width: 100%; overflow: hidden;}
+#sub_container2 #sub_02_visual{width: 1000px; height: 500px; background-image: url(../img/sub02_visual.png); background-position: center top; background-size: cover;  margin: 0 auto;}
+
+#sub_02_visual .visual_text{width: 900px; padding-left: 600px;}
+#sub_02_visual .visual_text h1{padding-top: 150px; font-size: 26px; margin-bottom: 5px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_02_visual .visual_text h1 .one{color: #b4595d; font-size: 26px; margin-bottom: 0px; margin-top: -90px;}
+#sub_02_visual .visual_text h1 .young{display: flex;}
+#sub_02_visual .visual_text h1 .tnqns{font-size: 12px; width: 100px; background: #b4595d; color: #fff; padding: 4px 8px; text-align: center; font-family: 'Gowun Dodum', sans-serif; margin-left: 10px; margin-top: 10px; border: #00000000;}
+
+
+#sub_02_visual .visual_text .pure{font-size: 16px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_02_visual .visual_text .water{font-size: 14px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_02_visual .visual_text .wktpgl{width: 100px; background: #ffffff00; color: #000000; padding: 8px 8px; text-align: center; border: 1px solid #000; cursor: pointer; margin-bottom: 18px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_02_visual .visual_text .wktpgl:hover{background: #b4595d; color: #fff; text-decoration: underline;}
+#sub_02_visual .visual_text .icon{margin-left: -15px; width: 200px; display: flex; justify-content: space-between; margin-bottom: 18px;}
+#sub_02_visual .visual_text .icon li img{width: 90px;}
+#sub_02_visual .visual_text .did{font-size: 8px; font-family: 'Gowun Dodum', sans-serif;}
+
+
+
+#sub_container2 #view_wrap3{width: 100%; height: 0px; margin-top: 40px; margin-bottom: 180px;}
+#sub_container2 #view_wrap3 #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+#sub_container2 #view_wrap3 #view .hello-items{width: 59%; margin: 0 auto; overflow: hidden;}
+#sub_container2 #view_wrap3 #view .hello-items div{margin-left: 10px; margin-right: 10px; height: 140px; overflow: hidden;}
+#sub_container2 #view_wrap3 #view .hello-items div img{width: 100%; height: 100%;}
+
+
+
+
+
+
+/*세번째*/
+#sub_container3{width: 100%; overflow: hidden;}
+#sub_container3 #sub_03_visual{width: 1000px; height: 500px; background-image: url(../img/sub03_visual.png); background-position: center top; background-size: cover;  margin: 0 auto;}
+
+#sub_03_visual .visual_text{width: 900px; padding-left: 50px;}
+#sub_03_visual .visual_text h1{padding-top: 60px; font-size: 26px; margin-bottom: 5px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_03_visual .visual_text h1 .one{color: #986c36; font-size: 26px; margin-bottom: 0px; margin-top: 0px;}
+#sub_03_visual .visual_text h1 .young{display: flex;}
+#sub_03_visual .visual_text h1 .tnqns{font-size: 12px; width: 150px; background: #986c36; color: #fff; padding: 4px 8px; text-align: center; font-family: 'Gowun Dodum', sans-serif; margin-left: 10px; margin-top: 10px; border: #00000000;}
+
+
+#sub_03_visual .visual_text .pure{font-size: 16px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_03_visual .visual_text .water{font-size: 14px; margin-bottom: 20px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_03_visual .visual_text .wktpgl{width: 100px; background: #ffffff00; color: #000000; padding: 8px 8px; text-align: center; border: 1px solid #000; cursor: pointer; margin-bottom: 18px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_03_visual .visual_text .wktpgl:hover{background: #986c36; color: #fff; text-decoration: underline;}
+#sub_03_visual .visual_text .icon{margin-left: -15px; width: 200px; display: flex; justify-content: space-between; margin-bottom: 18px;}
+#sub_03_visual .visual_text .icon li img{width: 90px;}
+#sub_03_visual .visual_text .did{font-size: 8px; font-family: 'Gowun Dodum', sans-serif;}
+
+
+
+#sub_container3 #view_wrap3{width: 100%; height: 0px; margin-top: 40px; margin-bottom: 230px;}
+#sub_container3 #view_wrap3 #view{width: 1340px; height: 650px; margin: 0 auto;}
+
+#sub_container3 #view_wrap3 #view .hello-items{width: 59%; margin: 0 auto; overflow: hidden;}
+#sub_container3 #view_wrap3 #view .hello-items div{margin-left: 10px; margin-right: 10px; height: 140px; overflow: hidden;}
+#sub_container3 #view_wrap3 #view .hello-items div img{width: 100%; height: 100%;}
+
+
+
+
+
+
+/*sub_02*/
+#sub_container{width: 100%;}
+#sub_container #sub_02_visual{width: 100%; height: 400px; background-image: url(../img/2sub02_visual.jpeg); background-position: center bottom; background-size: cover;}
+
+
+#sub_container #sub_02_contents{width:1300px; margin: 70px auto; min-height: 1000px; background-color: #ffffff;}
+#sub_02_contents .page_name{font-size: 35px; line-height: 60px; padding-top: 50px; text-align: center; font-family: 'Gowun Dodum', sans-serif;}
+#sub_02_contents .page_name2{font-size: 15px; line-height: 22px; padding-top: 20px; margin-bottom: 150px; text-align: center; font-family: 'Gowun Dodum', sans-serif;}
+
+/*2단 콘텐츠*/
+.column2{width: 100%; height: 2500px;}
+.column2 .left{padding-bottom: 200px;}
+.column2 .left .eltm{display: flex; justify-content: space-between; width: 90%;}
+.column2 .left img{width: 500px; margin-top: -20px; margin-left: -20px;}
+.column2 .left .img_wrap{width: 500px; height: 668px; background-color: #eeefe7; margin-left: 100px;}
+.column2 .left h1{margin-top: 100px; font-size: 50px; color: #555; font-family: 'Gowun Dodum', sans-serif; margin-bottom: 50px;}
+.column2 .left h3{margin-top: 50px; font-size: 19px; color: #555; margin-bottom: 50px; line-height: 30px;}
+.column2 .left p{font-size: 14px; color: #666; line-height: 25px; word-spacing: -3px;}
+
+
+.column2 .right{padding-bottom: 200px;}
+.column2 .right .eltm{display: flex; justify-content: space-between; width: 90%;}
+.column2 .right img{width: 500px; margin-top: -20px; margin-left: -20px;}
+.column2 .right .sub02_con{margin-left: 100px;}
+.column2 .right .img_wrap{width: 500px; height: 668px; background-color: #eeefe7;}
+.column2 .right h1{margin-top: 100px; font-size: 50px; color: #555; font-family: 'Gowun Dodum', sans-serif; margin-bottom: 50px;}
+.column2 .right h3{margin-top: 50px; font-size: 19px; color: #555; margin-bottom: 50px; line-height: 30px;}
+.column2 .right p{font-size: 14px; color: #666; line-height: 25px; word-spacing: -3px;}
+
+
+/*sub_03*/
+#sub_container{width: 100%;}
+#sub_container .sub03-items{width: 90%; margin: 0 auto; padding-top: 40px; padding-bottom: 40px; overflow: hidden;}
+
+#sub_container .sub03-items div{margin-left: 8px; margin-right: 8px; overflow: hidden;}
+#sub_container .sub03-items div img{width: 92%; height: 92%;}
+
+
+#sub_container #sub_03_visual{}
+#sub_03_visual{width: 100%; overflow: hidden;} 
+#sub_03_visual #visual_wrap{width: 100%; position: relative;}
+#sub_03_visualr #visual_wrap .single-item{width: 100%;}
+#sub_03_visual #visual_wrap .single-item img{width: 100%;}
+
+#sub_03_visual #visual_wrap2{}
+#sub_03_visual #visual_wrap2 .entl{display: flex; margin-left: 500px; margin-bottom: 40px;}
+#sub_03_visual #visual_wrap2 .entl li{margin-right: 40px;}
+#sub_03_visual #visual_wrap2 .entl li h3{font-size: 20px; width: 120px; background: #5b8060; color: #fff; padding: 4px 8px; text-align: center; font-family: 'Gowun Dodum', sans-serif; margin-top: 10px; border: #00000000;}
+#sub_03_visual #visual_wrap2 .entl li h1{font-size: 50px; font-family: 'Gowun Dodum', sans-serif;}
+#sub_03_visual #visual_wrap2 .entl li p{font-size: 15px; font-family: 'Gowun Dodum', sans-serif; margin-top: 70px;}
+
+
+
+
+/*product*/
+#sub_03_visual #visual_wrap2 #product_wrap2{width: 100%; height: 1100px; margin-top: 20px;}
+#sub_03_visual #visual_wrap2 #product_wrap2 #product{width: 1300px; height: 970px; margin: 0 auto;}
+
+#product_wrap2 #product .best{}
+
+#product_wrap2 #product .best .item{display: flex; justify-content: space-between;}
+#product_wrap2 #product .best .item li{margin: 20px;}
+#product_wrap2 #product .best .item li .pic{margin-bottom: 10px;}
+#product_wrap2 #product .best .item li .pic img{width: 228px; height: 405x; border-radius: 30px;}
+#product_wrap2 #product .best .item li .price{font-size: 17px; font-weight: bold; margin-bottom: 8px; margin-top: 50px; letter-spacing: -0.5px; font-family: 'Gowun Dodum', sans-serif; text-align: center;}
+#product_wrap2 #product .best .item li .price2{font-size: 17px; font-weight: bold; margin-bottom: 8px; margin-top: 10px; letter-spacing: -0.5px; font-family: 'Gowun Dodum', sans-serif; text-align: center;}
+#product_wrap2 #product .best .item li .name{font-size: 17px; font-weight: 550; margin-bottom: 8px; letter-spacing: -0.5px; font-family: 'Gowun Dodum', sans-serif; text-align: center;}
+
+#product_wrap2 #product .best .item li .gk{font-size: 12px; width: 45px; background: #5b8060; color: #fff; padding: 2px 5px; text-align: center; font-family: 'Gowun Dodum', sans-serif; margin-top: 10px; border: #00000000; margin: 0 auto;}
+
+

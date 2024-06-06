@@ -1,0 +1,7 @@
+/*reset css 5*/
+
+* {margin:0; padding:0;}  
+body {font-size:12px; font-family: "맑은 고딕", sans-serif;}
+img {border:0;} 
+ul {list-style:none;} 
+a {text-decoration:none; color:inherit;} 
